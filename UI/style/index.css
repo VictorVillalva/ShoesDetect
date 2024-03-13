@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+h1,h2,h3,span,p{
+    font-family: "Inter", sans-serif;
+    color: white;
+}
+button{
+    border: none;
+    box-shadow: none;
+}
+a{
+    text-decoration: none;
+}
+body{
+    background-color: #111315;
+    background-image: url("/assets/images/bg.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.name-page-2,.name-page{
+    margin-left: 32px;
+    width: 13.3125rem;
+    font-weight: 300;
+    font-size: 1.25rem;
+    font-style: normal;
+    line-height: normal;
+}
+.name-page-2{
+    font-weight:700;
+}
+/* TODO Checa posicion de la informacion */
+
+.container{
+    display: flex;
+    flex-direction: row;
+    margin-top: 6.62rem;
+}
+/* Section Izquierda */
+.information{
+    margin-left: 5rem;
+}
+.intro-txt{
+    width: 39.3125rem;
+    font-size: 4rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin: 0;
+}
+
+.context-txt{
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    width: 39.3125rem;
+    margin: 0;
+    margin-top: 0.94rem;
+
+}
+.start{
+    border-radius: 0.3125rem;
+    background: #FFF;
+    display: flex;
+    width: 10.25rem;
+    padding: 0.625rem 2.5rem;
+    justify-content: center;
+    align-items: center;
+    gap: 0.625rem;
+    color: #111315;
+    font-family: Inter;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    margin-top: 2.5rem;
+    transition: 1s;
+}
+.start:hover{
+    background: #d8d8d8;
+    border: 1px solid #8EB5FF;
+}
+
+/* Section Derecha*/
+.image{
+    margin-left: 8.56rem ;
+}
+.index-img{
+    width: 90%;
+}
+
+footer{
+    position: fixed; 
+    left: 0;
+    bottom: 0;
+    width: 100%; 
+    color: white;
+    padding: 10px;
+    display: flex;
+    flex-direction: row-reverse;
+}
+.github{
+    display: flex;
+    flex-direction: row-reverse;
+    width: 20.5625rem;
+    padding: 0.3125rem 0.625rem;
+    justify-content: center;
+    align-items: center;
+    gap: 0.625rem;
+}

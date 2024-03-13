@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+h1,h2,h3,span,p{
+    font-family: "Inter", sans-serif;
+    color: white;
+}
+button{
+    border: none;
+    box-shadow: none;
+}
+a{
+    text-decoration: none;
+}
+input[type="file"] {
+    display: none;
+}
+body{
+    background-color: #111315;
+}
+.name-page-2,.name-page{
+    margin-left: 32px;
+    width: 13.3125rem;
+    font-weight: 300;
+    font-size: 1.25rem;
+    font-style: normal;
+    line-height: normal;
+}
+.name-page-2{
+    font-weight:700;
+}
+.container{
+    display: flex;
+    flex-direction: row;
+    margin-top: 3vw;
+    margin-left: 5vw;
+}
+.img-analizada{
+    border-radius: 0.1875rem;
+    background: #FFF;
+    width: 50vw;
+    height: 35vw;
+}
+.img-analisis{
+    padding-left: 4.25rem;
+}
+.detects-txt{
+    width: 27.875rem;
+    font-size: 2rem;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+    margin: 0;
+}
+.detects-txt-2{
+    font-weight: 600;
+}
+.recomendation-txt{
+    width: 27.875rem;
+    font-size: 0.75rem;
+    font-style: normal;
+    font-weight: 200;
+    line-height: normal;
+    margin: 10px 0px 0px 0px;
+}
+.act-txt{
+    width: 27.875rem;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin: 60px 0px 0px 0px ;
+}
+.result-txt{
+    width: 27.875rem;
+    font-size: 2.25rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin: 10px 0px 0px 0px ;
+}
+.volver{
+    display: flex;
+    width: 20.5625rem;
+    padding: 0.625rem 1.25rem;
+    justify-content: center;
+    align-items: center;
+    gap: 0.625rem;
+    border-radius: 0.3125rem;
+    background: #FFF;
+    color: #111315;
+    text-align: center;
+    font-family: Inter;
+    font-size: 1.125rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    transition: 1s;
+    margin-top: 60px ;
+}
+.volver:hover{
+    background: #d8d8d8;
+    border: 1px solid #8EB5FF;
+}
+footer{
+    position: fixed; 
+    left: 0;
+    bottom: 0;
+    width: 100%; 
+    color: white;
+    padding: 10px 40px 10px 40px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.copyright{
+    text-align: center;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.github{
+    display: flex;
+    flex-direction: row-reverse;
+    width: 20.5625rem;
+    padding: 0.3125rem 0.625rem;
+    justify-content: center;
+    align-items: center;
+    gap: 0.625rem;
+}

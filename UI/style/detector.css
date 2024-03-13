@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+h1,h2,h3,span,p{
+    font-family: "Inter", sans-serif;
+    color: white;
+}
+button{
+    border: none;
+    box-shadow: none;
+}
+a{
+    text-decoration: none;
+}
+input[type="file"] {
+    display: none;
+}
+body{
+    background-color: #111315;
+}
+.name-page-2,.name-page{
+    margin-left: 32px;
+    width: 13.3125rem;
+    font-weight: 300;
+    font-size: 1.25rem;
+    font-style: normal;
+    line-height: normal;
+}
+.name-page-2{
+    font-weight:700;
+}
+.container{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.title-detector{
+    text-align: center;
+    font-size: 6rem;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+    margin: 0;
+}
+.span-calzados{
+    font-size: 6rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+.intro-detector{
+    width: 42.375rem;
+    font-size: 1.125rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-align: center;
+    margin: 0;
+    margin-top: 0.62rem;
+}
+.file-img{
+    cursor: pointer;
+    display: flex;
+    width: 27.875rem;
+    padding: 1.25rem;
+    justify-content: center;
+    align-items: center;
+    gap: 0.625rem;
+    border-radius: 0.3125rem;
+    background: #FFF;
+    color: #111315;
+    text-align: center;
+    font-family: "Inter", sans-serif;
+    font-size: 1.5rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-top: 2.75rem;
+}
+.remember{
+    width: 42.375rem;
+    text-align: center;
+    font-family: Inter;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 200;
+    line-height: normal;
+    margin-top: 0.62rem;
+}
+footer{
+    position: fixed; 
+    left: 0;
+    bottom: 0;
+    width: 100%; 
+    color: white;
+    padding: 10px 40px 10px 40px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.copyright{
+    text-align: center;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.github{
+    display: flex;
+    flex-direction: row-reverse;
+    width: 20.5625rem;
+    padding: 0.3125rem 0.625rem;
+    justify-content: center;
+    align-items: center;
+    gap: 0.625rem;
+}
