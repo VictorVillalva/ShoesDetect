@@ -62,6 +62,7 @@ model.add(Dropout(0.5))
 model.add(Dense(num_clases, activation='softmax')) #convierte los valores de la ultima capa con los valores de las clases
 
 model.compile(loss='categorical_crossentropy', optimizer='adam', metrics=['accuracy'])
+
 history = model.fit(x_train,y_train, batch_size=40, epochs=500, verbose=1, validation_data=(x_test,y_test))
 
 
